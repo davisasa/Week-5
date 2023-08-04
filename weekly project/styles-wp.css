@@ -1,0 +1,30 @@
+img{
+    border-radius: 50%;
+    height: 300px;
+}
+.row{
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-size: 60px;
+}
+
+.header{
+    background-color: gray;
+    height: 400px;
+    width: 1600px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 1600px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}

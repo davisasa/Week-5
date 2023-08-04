@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nesting columns</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css ">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 nestingcol">
+                bigger column
+                <div class="row">
+                <div class="col-md-6 smallcol">
+                    nested col
+                </div>
+
+                <div class="col-md-6 smallcol2">
+                    second small col
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-6 nestingcol2">
+                col 6
+            </div>
+        </div>
+
+        <hr>
+            <div class="row justify-content-center">
+                <!-- <div class="col-md-2"></div> -->
+
+                <div class="col-md-8 col1">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae delectus at accusamus? In similique, dolor ex error incidunt quae maiores quam temporibus debitis, voluptatem hic magni tempore placeat! Dolores, incidunt.
+                    </p>
+                </div>
+
+                <!-- <div class="col-md-2"></div> -->
+            </div>
+
+     </div>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
